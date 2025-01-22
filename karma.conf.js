@@ -41,13 +41,7 @@ module.exports = function (config) {
       }
     },
     reporters: ['mocha'],
-    browsers: ['ChromeHeadless'],
-    customLaunchers: {
-      ChromeHeadlessCI: {
-        base: 'ChromeHeadless',
-        flags: ['--no-sandbox']
-      }
-    },
+    browsers: ['Chrome'],
     restartOnFileChange: true
   });
 };
