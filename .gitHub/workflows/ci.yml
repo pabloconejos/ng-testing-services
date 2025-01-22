@@ -1,4 +1,4 @@
-name: CI for Angular
+name: CI Angular
 on: push
 jobs:
   unit-test:
